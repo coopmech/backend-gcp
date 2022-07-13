@@ -14,7 +14,7 @@ const connection = mysql.createConnection({
     host: '34.101.122.43',
     user: 'root',
     database: 'backend-db',
-    password: 'charzaku2'
+    password: 'root123'
 })
 
 router.get("/dashboard", (req, res) => {
